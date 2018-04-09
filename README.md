@@ -2,36 +2,4 @@
 ceshi appliaction
 
 #git命令大全
-
-# 列出分支
-git branch -a
-# 切换分支
-git checkout xxxxx1
-# 创建分支
-git checkout -b xxxxxx2
-# commit
-
-# 撤销commit
-git reset <commit id>
-
-#创建本地库
-git init
-
-# 删除分支
-git branch -d xxxxxx2
-
-# 变换push分支
-# git pull 失败 ,提示：fatal: refusing to merge unrelated histories
-# 
-git pull origin master --allow-unrelated-histories
-
-# 删除远程分支
-git branch -r -d origin/local/origin/develop
-git push origin :local/origin/develop
-
-
-# 连接到远程库
-git remote add origin https://.git
-
-# 建立分支
-git branch --set-upstream-to=origin/master master
+ceshi使用github
